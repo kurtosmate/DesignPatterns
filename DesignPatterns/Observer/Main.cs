@@ -16,7 +16,7 @@ namespace DesignPatterns.Observer
             s.Attach(new ConcreteObserver(s, "Coffer maker"));
 
             // Change subject and notify observers
-
+            System.Console.WriteLine("Notify observers");
             s.SubjectState = "Start";
             s.Notify();
 

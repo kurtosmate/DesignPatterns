@@ -9,7 +9,7 @@
     class ConcreteSubject : Subject
 
     {
-        private string _subjectState;
+        private string _subjectState = "Init";
 
         // Gets or sets subject state
 
