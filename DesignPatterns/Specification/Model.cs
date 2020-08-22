@@ -6,5 +6,6 @@
         public int Age { get; set; }
         public double BasketTotalPrice { get; set; }
         public string Currency { get; set; }
+        public bool Blocked { get; set; }
     }
 }
