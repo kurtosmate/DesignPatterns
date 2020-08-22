@@ -9,7 +9,7 @@ namespace DesignPatterns.Singleton
         public void Start()
         {
 
-            // Constructor is protected -- cannot use new
+            // Constructor is private -- cannot use new
 
             Singleton dispatcher1 = Singleton.Instance();
 
