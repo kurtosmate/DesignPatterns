@@ -11,7 +11,7 @@ namespace DesignPatterns.Memento
             o.State = "Open";
 
             // Store internal state
-
+            System.Console.WriteLine("Create memento...");
             Caretaker c = new Caretaker();
             c.Memento = o.CreateMemento();
 
