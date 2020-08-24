@@ -4,4 +4,4 @@ Every folder contains a **"Main.cs"** file which is the client of the given patt
 
 You can run the solution to check the behavior and the outputs of the pattern demos.
 
-<img src="https://raw.githubusercontent.com/kurtosmate/DesignPatterns/master/screenshot_5.png"></img>
+<img src="https://raw.githubusercontent.com/kurtosmate/DesignPatterns/master/screenshot_6.png"></img>
