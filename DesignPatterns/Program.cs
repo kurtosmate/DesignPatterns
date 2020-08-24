@@ -25,7 +25,8 @@ namespace DesignPatterns
         private static void RunAllPattern()
         {
             foreach (Type type in System.Reflection.Assembly.GetExecutingAssembly().GetTypes()
-                                                            .Where(c => c.GetInterfaces().Contains(typeof(IPattern))))
+                                                            .Where(c => c.GetInterfaces().Contains(typeof(IPattern)))
+                                                            .Reverse())
             {
                 WriteHeader(type);
 
